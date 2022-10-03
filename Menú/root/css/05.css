@@ -1,0 +1,257 @@
+body                    {
+    width:              100vw;
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    center;
+    align-items:        center;
+    box-sizing:         sizing-box;
+    margin:             0;
+    padding:            0;
+    font-family:        'Nunito Sans', sans-serif;
+    font-size:          16px;
+    background-color: #050505;
+    overflow-x:         hidden;
+    font-weight:        500;
+}
+
+header                  {
+    max-width:          100vw;
+    height:             66vw;
+}
+
+main                    {
+    width:              100vw;
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    flex-start ;
+    align-items:        center;
+    background-color: #050505;
+}
+
+footer                  {
+    width:              13vw;
+    height:             13vw;
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    center;
+    align-items:        center;
+    background-color: #DC2D0E;
+    margin:             10vw 0;
+    border-radius:      100%;
+}
+
+.Banner                 {
+    max-width:          100vw;
+    position:           absolute;
+    top:                0;
+    left:               0;
+    filter:             brightness(80%);
+    z-index:            -1;
+}
+
+.ContenedorLogo         {
+    width:              100vw;
+    position:           absolute;
+    top:                0;
+    left:               0;
+    display:            flex;
+    justify-content:    center;
+    align-items:        center;
+    background-color: #0B0B0A;
+    z-index:            1;
+}
+
+a                       {
+    text-decoration:    none;
+    color: #050505;
+}
+
+h1                      {
+    color:            #FDFCF8;
+    font-family:        'Dosis', sans-serif;
+    text-align:         center;
+}
+
+.CoctelesBar            {
+    width:              94vw;
+    height:             100vw;
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    flex-start;
+    align-items:        center;
+    justify-self:       center;
+    align-self:         center;
+    border: solid     #FDFCF8 2px;
+    border-radius:      2%;
+}
+
+.CoctelesBar .titular   {
+    width:              94vw;
+    height:             10vh;
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    center;
+    align-items:        center;
+    text-align:         center;
+    margin:             0;
+    padding:            0;
+    font-family:        'Dosis', sans-serif;
+    color:            #FDFCF8;
+    font-size:          28px;
+}
+
+.titular h2             {
+    margin:             1vw 0;
+    padding:            0;
+}
+
+.CoctelesBar .fondo             {
+    width:                      94vw;
+    height:                     80%;
+    background-image:           url('../imagenes/06.Bebidas/caribbean-beach-with-palm-trees-blue-sky.jpg');
+    background-size:            cover;
+    background-repeat:          no-repeat;
+    background-color:         #313131;
+    background-blend-mode:      multiply;
+    display:                    flex;
+    flex-direction:             column;
+    justify-content:            center;
+    align-items:                center;
+    font-family:                'Dosis', sans-serif;
+    font-size:                  24px;
+    font-weight:                700;
+    text-align:                 center;
+    color:                    #FDFCF8;
+    margin:                     0;
+    padding:                    0;
+}
+
+.fondo p                        {
+    width:                      80vw;
+}
+
+.CoctelesBar  .restriccion      {
+    width:                      45vw;
+    height:                     10%;
+    text-align:                 center;
+    display:                    flex;
+    flex-direction:             column;
+    justify-content:            center;
+    align-items:                center;
+    color:                    #050505;
+    background-color:         #DC2D0E;
+    text-align:                 center;
+    font-weight:                700;
+    margin:                     0;
+    padding:                    0;
+}
+
+.normal                     {
+    width:                  93vw;
+    display:                grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows:     1fr 1fr 1fr;
+    grid-gap:               2vw;
+    grid-template-areas:    "jugos limonada"
+                            "malteada SodaS"
+                            "cerveza pasante";
+    background-color:     #050505;
+    margin:                 6vw 1vw;
+}
+
+.bebidas                    {
+    width:                  45.2vw;
+    height:                 100vw;
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        center;
+    align-items:            center;
+    background-color:     #FCB20E;
+    margin:                 0;
+}
+
+.titulo                     {
+    height:                 10%;
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        center;
+    align-items:            center;
+    margin:                 0;
+    padding:                0;
+}
+
+.titulo h2                  {
+    height:                 100%;
+    margin:                 0;
+    padding:                0;
+}
+
+.imagen                     {
+    width:                  100%;
+    height:                 60%;
+    margin:                 0;
+    padding:                0;
+}
+
+.imagen img                 {
+    width:                  100%;
+    height:                 100%;
+}
+
+.elementos                  {
+    display:                flex;
+    flex-direction:         row;
+    justify-content:        center;
+    align-items:            center;
+}
+
+.items, .precios            {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        center;
+    align-items:            center;
+    margin:                 0 3vw;
+}
+
+.items p                    {
+    font-size:              14px;
+    font-weight:            700;
+}
+
+.precios p                  {
+    font-size:              14px;
+}
+
+.elementos p                {
+    margin:                 1vw 0;
+}
+
+.jugos                      {
+    grid-area:              jugos;
+}
+
+.limonada                   {
+    grid-area:              limonada;
+}
+
+.malteada                   {
+    grid-area:              malteada;
+}
+
+.Soda                       {
+    grid-area:              SodaS;
+}
+
+.cerveza                    {
+    grid-area:              cerveza;
+}
+
+.pasantes                   {
+    grid-area:              pasante;
+}
+
+footer img                  {
+    background-color:     #DC2D0E;
+    width:                  40px;
+    height:                 40px;
+}

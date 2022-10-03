@@ -1,0 +1,307 @@
+body        {
+    width:              100vw;
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    center;
+    align-items:        center;
+    box-sizing:         sizing-box;
+    margin:             0;
+    padding:            0;
+    font-family:        'Nunito Sans', sans-serif;
+    font-size:          16px;
+    background-color: #050505;
+    overflow-x:         hidden;
+    font-weight:        500;
+}
+
+header      {
+    max-width:          100vw;
+    height:             66vw;
+}
+
+main        {
+    width:              100vw;
+    height:             202vw;
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    flex-start ;
+    align-items:        center;
+    background-color: #050505;
+}
+
+footer      {
+    width:              100vw;
+    
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    center;
+    align-items:        center;
+    background-color: #050505;
+    margin:             7vw 0;
+}
+
+.Banner     {
+    max-width:          100vw;
+    position:           absolute;
+    top:                0;
+    left:               0;
+    filter:             brightness(80%);
+    z-index:            -1;
+}
+
+.ContenedorLogo     {
+    width:              100vw;
+    position:           absolute;
+    top:                0;
+    left:               0;
+    display:            flex;
+    justify-content:    center;
+    align-items:        center;
+    background-color: #0B0B0A;
+    z-index:            1;
+}
+
+a           {
+    text-decoration:    none;
+    color: #050505;
+}
+
+h1 {
+    font-family:        'Dosis', sans-serif;
+    color:            #FDFCF8;
+}
+
+.intro {
+    text-align:         justify;
+    color:            #FDFCF8;
+    margin:             15px;
+}
+
+h2 {
+    font-family:        'Dosis', sans-serif;
+    text-align:         left;
+    margin:             5px 2vw;
+    color:            #FDFCF8;
+}
+
+#clasicas {
+    width: 25vw;
+    position: relative;
+    top: 5vw;
+    background-color: #050505;
+    text-align: center;
+}
+
+#pollo {
+    width: 30vw;
+    position: relative;
+    top: 5vw;
+    background-color: #050505;
+    text-align: center;
+}
+
+#vegetariano {
+    width: 30vw;
+    position: relative;
+    top: 5vw;
+    background-color: #050505;
+    text-align: center;
+}
+
+.Contenedor{
+    width:                  96vw;
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        space-around;
+    align-items:            center;
+    border:                 double 2px #DC2D0E;
+    margin:                 2vw 0;
+    padding: 2vw 0;
+}
+
+.card   {
+    width:                  93vw;
+    display:                grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows:     1fr 1fr;
+    grid-gap:               0;
+    grid-template-areas:    "imagen nombre nombre"
+                            "imagen precio1 precio2";    
+    background-color:     #FCB20E;
+    margin:                 10px 0;
+    border-radius:          0.5%;
+}
+
+.card h2{
+    grid-area:              nombre;
+    text-align:             center;
+    color:                #0B0B0A;
+    margin:                 3vw 0 0 0;
+
+}
+
+.card img{
+    width:                  31vw;
+    height:                 31vw;
+    grid-area:              imagen;
+}
+
+.card .precio1{
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        center;
+    text-align:             center;
+    border-top:             double 2px #050505;
+    grid-area:              precio1;
+}
+.card .precio2 {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        center;
+    text-align:             center;
+    border-top:             double 2px #050505;
+    grid-area:              precio2;
+}
+
+.card p {
+    padding: 0;
+    margin: 0;
+}
+
+.Pollo .Contenedor{
+    border:                 double 2px #FCB20E;
+}
+
+.Vegetariana .Contenedor{
+    border:                 double 2px #FCB20E;
+}
+
+.leftcar {
+    width:                  93vw;
+    display:                grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows:     1fr 1fr;
+    grid-gap:               0;
+    grid-template-areas:    "nombre nombre imagen"
+                            "precio1 precio2 imagen";    
+    background-color:     #DC2D0E;
+    margin:                 10px 0;
+    border-radius:          0.5%;
+}
+
+.leftcar .descripcion{
+    grid-area: nombre;
+    color: #0B0B0A;
+    margin: 5vw 0 0 0 0;
+}
+
+.leftcar img{
+    width: 31vw;
+    height: 31vw;
+    grid-area: imagen;
+}
+
+.leftcar .precio1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    grid-area: precio1;
+    border-top: double 2px #050505;
+}
+.leftcar .precio2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    grid-area: precio2;
+    border-top: double 2px #050505;
+}
+
+.leftcar h2 {
+    text-align: center;
+    color: #050505;
+}
+
+.leftcar p {
+    padding: 0;
+    margin: 0;
+}
+
+.descripcion p {
+    text-align: center;
+    font-size: 12px;
+    margin:  0 2vw;
+}
+
+.avance {
+    width: 28vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FCB20E;
+    border-radius: 6%;
+    margin: 0 2vw;
+}
+
+.avance img{
+    width: 5vw;
+    height: 5vw;
+}
+
+.footer1, .footer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+}
+
+.home{
+    background-color: #DC2D0E;
+    width:50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home img{
+    width:35px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.vinculo {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DC2D0E;
+    border-radius: 6%;
+    margin: 0 2vw;
+}
+
+.vinculo img{
+    width: 5vw;
+    height: 5vw;
+    margin: 1vw 0 0 0;
+}
+
+.vinculo p{
+    margin:0;
+    padding: 0;
+}
+
+.atras {
+    margin: 0 8vw 0 0;
+}
+
+.kitkofhouse {
+    margin: 0 0 0 8vw;
+}

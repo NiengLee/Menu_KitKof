@@ -1,0 +1,170 @@
+body        {
+    width:              100vw;
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    center;
+    align-items:        center;
+    box-sizing:         sizing-box;
+    margin:             0;
+    padding:            0;
+    font-family:        'Nunito Sans', sans-serif;
+    font-size:          16px;
+    color:            #FDFCF8;
+    overflow-x:         hidden;
+}
+
+header      {
+    max-width:          100vw;
+    height:             66vw;
+}
+
+main        {
+    width:              100vw;
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    center;
+    align-items:        center;
+    background-color: #050505;
+    margin:             0;
+}
+
+footer      {
+    width:              100vw;
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    center;
+    align-items:        center;
+    background-color: #050505;
+}
+
+a           {
+    text-decoration:    none;
+    color:            #FDFCF8;
+}
+
+.Banner     {
+    max-width:          100vw;
+    position:           absolute;
+    top:                0;
+    left:               0;
+    filter:             brightness(80%);
+    z-index:            -1;
+}
+
+.ContenedorLogo     {
+    width:              100vw;
+    position:           absolute;
+    top:                0;
+    left:               0;
+    display:            flex;
+    justify-content:    center;
+    align-items:        center;
+    background-color: #0B0B0A;
+    z-index:            1;
+}
+
+h1, h2, .Ubicacion  {
+    font-family:        'Dosis', sans-serif;
+}
+
+.SeccionMenu        {
+    display:                grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows:     1fr 1fr;
+    grid-gap:               10px;
+    grid-template-areas:    "Entradas Hamburguesas OtrasDelicias"
+                            "MenuInfantil Bebidas Postres";
+}
+
+.SeccionInd     {
+    width:                  30vw;
+    height:                 30vw;
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        center;
+    align-items:            center;
+    background-color:     #686868;
+    border-radius:          35%;
+    border:                 solid 2px #DC2D0E;
+    background-blend-mode:  multiply;
+}
+
+.SeccionInd p   {
+    text-align:     center;
+    font-size:      10px;
+    filter:         brightness(150%);
+}
+
+.Entradas       {
+    grid-area:          Entradas;
+    background-image:   url(../imagenes/01.Inicial/03_Entradas.jpg);
+    background-size:    cover;
+    background-repeat:  no-repeat;
+}
+.Hamburguesas   {
+    grid-area:          Hamburguesas;
+    background-image:   url(../imagenes/01.Inicial/04_Hamburguesas.jpg);
+    background-size:    cover;
+    background-repeat:  no-repeat;
+}
+.OtrasDelicias  {
+    grid-area:          OtrasDelicias;
+    background-image:   url(../imagenes/01.Inicial/05_OtrasDelicias.jpg);
+    background-size:    cover;
+    background-repeat:  no-repeat;
+}
+.MenuInfantil   {
+    grid-area:          MenuInfantil;
+    background-image:   url(../imagenes/01.Inicial/06_MenuInfantil.jpg);
+    background-size:    cover;
+    background-repeat:  no-repeat;
+}
+.Bebidas    {
+    grid-area: Bebidas;
+    background-image:   url(../imagenes/01.Inicial/07_Bebidas.jpg);
+    background-size:    cover;
+    background-repeat:  no-repeat;
+}
+
+.Postres    {
+    grid-area: Postres;
+    background-image:   url(../imagenes/01.Inicial/08_Postres.jpg);
+    background-size:    cover;
+    background-repeat:  no-repeat;   
+}
+
+.Contacto   {
+    width:              100vw;
+    display:            flex;
+    flex-direction:     column;
+    justify-content:    center;
+    align-items:        center;
+    background-color: #050505;
+    margin:             5vw 0 0 0;
+}
+
+.Ub_Di_Tel  {
+    width:              100vw;
+    display:            flex;
+    flex-direction:     row;
+    justify-content:    space-between;
+    align-items:        center;
+    background-color: #FCB20E;
+    font-size:          12px;
+    color:            #050505;
+}
+
+.Telefono   {
+margin:                 0 20px 0 0;
+}
+
+.icons      {
+    display:            flex;
+    flex-direction:     row;
+    justify-content:    center;
+    align-items:        center;
+}
+
+.media      {
+    margin:     10px 50px;
+}
