@@ -35,3 +35,5 @@ Fuente:
 titulos subtitulos: Dosis (https://fonts.google.com/specimen/Dosis?query=dosi&preview.size=16)
 
 parrafos y texto: nunito (https://fonts.google.com/specimen/Nunito+Sans?query=nunito&preview.size=16#styles)
+
+mobile first: 393px X 851px
